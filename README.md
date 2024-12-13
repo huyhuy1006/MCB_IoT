@@ -43,7 +43,7 @@ Cài đặt:
 Cài đặt Arduino IDE và thêm các setup cho ESP8266.
 Cài đặt các thư viện cần thiết: ESP8266WiFi.h, PubSubClient.h, DHT.h, time.h.
 Kết nối ESP8266 với máy tính qua cổng USB, chọn board ESP8266, chọn COM tương ứng.
-Nạp code "mcb.ino" cho ESP8266 qua Arduino.
+Nạp code "demomcb.ino" cho ESP8266 qua Arduino.
 Cấu hình WIFI và MQTT:
 
 Cấu hình lại Wifi cho phù hợp:
