@@ -1,0 +1,104 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container chính */
+.container {
+  width: 400px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Tiêu đề chính */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0077b6;
+}
+
+/* Khối (box) hiển thị dữ liệu */
+.box {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề của mỗi box */
+.box h3 {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Giá trị hiển thị */
+.box p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0077b6;
+}
+
+/* Biểu đồ (Canvas Chart.js) */
+#chart {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Nút điều khiển LED */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+/* Các nút (button) */
+.btn-group button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: #fff;
+}
+
+/* Màu sắc từng nút */
+.btn-group button:nth-child(1) {
+  background: #4caf50; /* Màu xanh lá cho nút Bật */
+}
+
+.btn-group button:nth-child(2) {
+  background: #f44336; /* Màu đỏ cho nút Tắt */
+}
+
+/* Hiệu ứng hover */
+.btn-group button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer (bản quyền) */
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
